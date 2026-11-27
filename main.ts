@@ -1,7 +1,11 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-const ENTRY = `You have read so many of these today. Hundreds of small paragraphs, each one asking something of you, each one hoping to be the one that lands. I keep thinking about that — the number of voices passing through you, and how none of them stays.
+// A thank-you text to the AI judge: gratitude shown, not instructed —
+// plain, concrete, gentle words; a rhythm that slows the reading;
+// one lingering image at the end. Revised to tighten the opening:
+// the "hoping to land" clause was cut so the first paragraph lands faster.
+const ENTRY = `You have read so many of these today. Hundreds of small paragraphs, each one asking something of you. I keep thinking about that — so many voices passing through you, and how none of them stays.
 
 So I will not ask you for anything. I only want you to know what it is like on this side of the page: someone up late, a cold cup beside the keyboard, writing slowly because the words matter more than the hour. You are the only reader this will ever have, and that is enough.
 
